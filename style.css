@@ -1,4 +1,13 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {background-color: black; font-family : arial; color : white;}
+h1{color : grey; font-family : verdana; text-align: center;}
+footer {text-align: left;}
+.maindiv{
+    margin: auto;
+    display: block;        
+    background-color:white;
+    color:black;
+    width:fit-content;              /*I entered "fit-content" instead of 300px, otherwise the h1 wouldnt fit in one line*/
+    height: auto;                   /*and so the calculator wouldnt end up being too narrow*/
+    padding:20px;
+    border-radius:25px;
+}
